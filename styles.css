@@ -1,0 +1,151 @@
+@font-face {
+    font-family: BaseNeue;
+    src: url(./fonts/BaseNeue.ttf);
+}
+@font-face {
+    font-family: Fanlste;
+    src: url(./fonts/Fanlste.otf);
+}
+body{
+    font-family: "Fanlste";
+    background-color: #747474;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    gap: 85px;
+}
+img {
+    display: flex;
+    flex: 0 1;
+    max-width: 300px;
+    border: #333333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: #ad9789;
+}
+button{
+    font-family: Fanlste;
+    text-decoration: none;
+    padding: 2px 8px;
+    margin: 5px;
+    color: #ad9789;
+    background-color: #333333;
+    border: 2px solid #ad9789;
+    border-radius: 6px;
+}
+
+.header {
+    background-color: rgb(50, 47, 44);
+    color: #747474;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-head {
+    font-family: BaseNeue;
+    margin-left: 12px;
+}
+/*header ^*/
+
+/*sect-one*/
+.sect-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    text-align: center;
+}
+.vtex {
+    display: flex;
+}
+
+/*sect-two*/
+.sect-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: #5147335a;
+}
+.head-two{
+    font-family: BaseNeue;
+    font-size: 72px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.content-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 20px;
+}
+.imgcap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: last baseline;
+    max-width: 300px;
+    gap: 20px;
+}
+
+/*sect-three*/
+.sect-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.quote-b {
+    margin-left: auto;
+}
+
+/*sect-four*/
+.sect-four {
+    background-color: rgb(50, 47, 44);
+    color: #747474;
+    padding: 4px 18px;
+    border-radius: 22px;
+    border: 2px solid #ad9789;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-four {
+    font-family: BaseNeue;
+    font-size: 32px;
+    color: #ad9789;
+}
+.bottom-four{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+.sign-up {
+    text-align: center;
+}
